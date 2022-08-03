@@ -7,3 +7,18 @@ I have created a simple website with a search funcitonality. The homepage of the
 - The website is built with Lavarel, following the MVC model. 
 - CSS and Bootstrap are used to style the web pages
 - phpMyAdmin and MySQL are used to create, populate and manage the database.
+
+### The Approach
+Before starting the project, I took some time to familiar myself with Lavarel and the following how I set up my project with Lavarel.
+
+1. Install Composer and Lavarel
+
+https://getcomposer.org/
+
+```composer global require laravel/installer```
+
+2. Create a project
+
+```composer create-project --prefer-dist laravel/laravel project```
+
+Then I needed to connect the database to Lavarel by editing the env file and database.php
