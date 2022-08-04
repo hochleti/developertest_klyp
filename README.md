@@ -22,3 +22,11 @@ https://getcomposer.org/
 ```composer create-project --prefer-dist laravel/laravel project```
 
 Then I needed to connect the database to Lavarel by editing the env file and database.php
+
+
+### Encounter error 
+If you encounter a PHP Warning, type in
+```composer install```
+
+And run the app again with:
+```php artisan serve```
